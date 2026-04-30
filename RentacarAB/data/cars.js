@@ -1,0 +1,48 @@
+const cars = [
+  {
+    id: 'compact-1',
+    name: 'City Compact',
+    brand: 'Nexa',
+    type: 'Compact',
+    pricePerDay: 45,
+    seats: 4,
+    luggage: 2,
+    fuel: 'Gasoline',
+    description: 'Fuel-efficient compact ideal for city travel and easy parking.',
+  },
+  {
+    id: 'suv-1',
+    name: 'Urban SUV',
+    brand: 'Voyager',
+    type: 'SUV',
+    pricePerDay: 75,
+    seats: 5,
+    luggage: 4,
+    fuel: 'Hybrid',
+    description: 'Comfortable SUV with extra cargo space and smooth handling.',
+  },
+  {
+    id: 'sedan-1',
+    name: 'Executive Sedan',
+    brand: 'Sterling',
+    type: 'Sedan',
+    pricePerDay: 65,
+    seats: 5,
+    luggage: 3,
+    fuel: 'Gasoline',
+    description: 'Stylish sedan for business travel and long-distance comfort.',
+  },
+  {
+    id: 'van-1',
+    name: 'Family Van',
+    brand: 'Atlas',
+    type: 'Van',
+    pricePerDay: 90,
+    seats: 7,
+    luggage: 5,
+    fuel: 'Diesel',
+    description: 'Spacious van for family trips and group transportation.',
+  },
+];
+
+export default cars;
